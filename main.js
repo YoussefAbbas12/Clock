@@ -11,7 +11,7 @@ setInterval(() => {
   let mn = document.getElementById("mn");
   let sc = document.getElementById("sc");
 
-  let h = new Date().getHours() - 12;
+  let h = new Date().getHours();
   let m = new Date().getMinutes();
   let s = new Date().getSeconds();
   
